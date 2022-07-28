@@ -1,0 +1,50 @@
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bottle-img {
+  width: 50%;
+}
+
+.addToCart {
+  width: 50%;
+
+}
+
+.dark-cyan {
+  color: hsl(158, 36%, 37%);
+}
+
+.gabrielleDesc {
+  font-family: Fraunces;
+  font-size: 2em;
+}
+
+.grayish {
+  color: hsl(228, 12%, 48%);
+  font-family: Montserrat;
+}
+
+.perfume {
+  letter-spacing: .5em;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.attribution {
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

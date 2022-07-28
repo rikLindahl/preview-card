@@ -1,31 +1,61 @@
+body {
+  background-color: tan;
+  margin: 0;
+}
 
 .container {
-  display: flex;
-  justify-content: space-between;
+  background-color: white;
+  border-radius: 15px;
+  height: 720px;
+  margin: 0 auto;
+  width: 75%;
 }
 
 .flex-container {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  flex-wrap: wrap;
+  height: 100%;
+  text-align: left;
+  width: 80%;
+}
+
+.description-container {
+  margin-left: 10px;
+  text-align: left;
+  width: 30%;
 }
 
 .bottle-img {
-  width: 50%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  display: inline-block;
+  height: 100%;
 }
 
 .addToCart {
-  width: 50%;
-
+  background-color: hsl(158, 36%, 37%);
+  border-style: none;
+  border-radius: 15px;
+  font-weight: bold;
+  color: #fff;
+  height: 4em;
+  margin-top: 1.75em;
+  width: 80%;
 }
 
 .dark-cyan {
   color: hsl(158, 36%, 37%);
 }
 
+.floral {
+  line-height: 2em;
+}
+
 .gabrielleDesc {
   font-family: Fraunces;
   font-size: 2em;
+  font-weight: 700;
 }
 
 .grayish {
@@ -33,14 +63,20 @@
   font-family: Montserrat;
 }
 
+.iconCart {
+  margin-right: 0.5em;
+}
+
 .perfume {
   letter-spacing: .5em;
-  text-align: left;
-  margin-left: 5px;
+}
+
+.salePrice {
+  text-decoration: line-through;
+  margin-left: 2em;
 }
 
 .attribution {
-  width: 100%;
   font-size: 11px;
   text-align: center;
 }
